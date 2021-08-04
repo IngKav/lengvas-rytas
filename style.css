@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(slashio-photography-DmItCw__ZEM-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#cover {
+  height: 100%;
+  width: 100%;
+}
+
+#ball {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 25%;
+  background: url(jakub-dziubak-XtUd5SiX464-unsplash.jpg) no-repeat center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20pt;
+  font-family: cursive Arial, Helvetica, sans;
+  text-overflow: clip;
+  text-align: center;
+  transition: all .5s;
+  position: fixed;
+}
+
+#ball #cnt {
+  height: 25rem;
+  width: 25rem;
+  letter-spacing: .2rem;
+  background: rgba(255, 99, 71, 0.5) no-repeat center center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+}
+
+#ball:hover {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 0;
+}
+
+#ball:hover #cnt {
+  display: flex;
+}
